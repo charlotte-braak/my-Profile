@@ -1,0 +1,114 @@
+/*Colors and fonts*/
+img {
+	width: 1000px;
+
+}
+body {
+    background: #ff5e0047;
+    color: rgb(40, 40, 40);
+    font-family: Times;
+    font-size: 50px;
+	margin: 0 auto;
+	padding: 50px;
+	text-align: center;
+
+
+}
+
+h1, h2, h3 {
+color: rgb(193, 4, 63);
+}
+
+div {
+	background: floralwhite;
+	width: 2000px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	padding: 10px
+
+
+}
+
+h1 {
+	font-family: 'Parisienne', cursive;
+	font-weight: 450;
+	font-size: 100px;
+	padding: 30px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border: 50px;
+
+
+}
+
+h2 {
+	font-family: 'Parisienne', cursive;
+	font-size: 80px;
+	font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+	color : rgb(40, 40, 40);
+}
+
+a:hover {
+	color: rgb(193, 4, 63);
+}
+
+
+
+
+/*Custom design with class*/
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+
+	.container {
+		width: 400px;
+	}
+}
+
+.btn-pink {
+	color: white;
+	background-color: rgb(193, 4, 63);
+	padding: 15px 20px;
+}
+.btn-pink:hover {
+	background-color: floralwhite;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 80px;
+	color: rgb(210, 210, 210);
+}
+.list-inline i:hover {
+	font-size: 80px;
+	color: rgb(193, 4, 63);
+}
+
+/*most specific*/
+
+#prénom, #Asso, #voayger, #citation {
+	font-weight: bold;
+}
+
+#citation {
+	font-weight: bold;
+	font-family: 'Parisienne', cursive;
+	font-size: 65px;
+}
